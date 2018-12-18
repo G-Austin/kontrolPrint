@@ -1,0 +1,48 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+#consumer-messages {
+    border: 2px solid black;
+    height: 400px;
+    padding-left: 20px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+
+#consumer-files {
+    border: 2px solid black;
+    height: 180px;
+    padding-left: 20px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+
+#consumer-orders {
+    border: 2px solid black;
+    height: 180px;
+    padding-left: 20px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+
+#consumer-account-settings {
+    border: 2px solid black;
+    height: 180px;
+    padding-left: 20px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+
+#consumer-saved-contacts {
+    border: 2px solid black;
+    height: 180px;
+    padding-left: 20px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
