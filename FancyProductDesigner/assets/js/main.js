@@ -86,39 +86,32 @@ $(document).ready(function() {
       $.post("php/send_image_via_mail.php", { base64_image: dataURL });
     });
   });
-    
+  
+  // Get the image.json file 
   $.getJSON( "../../assets/json/images.json", function(data) {
     console.log('getJSON worked')
     // console.log('data', data);
     })
     .done(function(data) {
-      console.log('.done function working')
       console.log('data', data);
+
       // Loop through JSON objects. Now able to use element.notation to access each product's keys
       for (const product in data) {
         if (data.hasOwnProperty(product)) {
+          //element is now each product object
           const element = data[product];
           console.log('element.attributes ', element.attributes);
+          //parse JSON 
+          elementAttributes = JSON.stringify(element.attributes)
+          console.log('element has been parsed', elementAttributes)
+          
+          //assign the attributes to the div. Put the div in the DOM
+
+          //use parsed JSON for the front image and back image <img> keys. 
         }
+      
       }
       console.log('data.product_1', data.product_1)
     })
 //closing document.ready function    
 });
-
-// //image fetch function
-
-    // .done(function( data ) {
-    //   // JSON.parse(data)
-    //   console.log(data)
-    //   // $.each( data.product )
-    // })
-  
- 
-  // $( "<ul/>", {
-  //   "class": "item-options",
-  //   html: items.join( "" )
-  // }).appendTo( "body" );
-// });
-//create a button
-// link ajax call to button and call the json
