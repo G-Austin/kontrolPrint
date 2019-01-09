@@ -100,10 +100,23 @@ $(document).ready(function() {
         if (data.hasOwnProperty(product)) {
           //element is now each product object
           const element = data[product];
-          console.log('element.attributes ', element.attributes);
+
+          //Use productAttributes to assign to the dynamically created <div>
+          const productAttributes =  element.attributes;
+          
+          //Use productFrontImageAttribute to assign to the dynamically created <img>
+          for (let i = 0; i < element.front_imgs.length; i++) {
+            const productFrontImageAttribute = element.front_imgs[i];
+            console.log('productFrontImageAttribute ', productFrontImageAttribute)
+          }
+          //Use productBackImageAttribute to assign to the dynamically created <img>
+          for (let i = 0; i < element.back_imgs.length; i++) {
+            const productBackImageAttribute = element.back_imgs[i];
+            console.log('productBackImageAttribute', productBackImageAttribute)
+          }
           //parse JSON 
-          elementAttributes = JSON.stringify(element.attributes)
-          console.log('element has been parsed', elementAttributes)
+          // elementAttributes = JSON.stringify(element.attributes)
+          // console.log('element has been parsed', elementAttributes)
           
           //assign the attributes to the div. Put the div in the DOM
 
@@ -111,7 +124,7 @@ $(document).ready(function() {
         }
       
       }
-      console.log('data.product_1', data.product_1)
+      
     })
 //closing document.ready function    
 });
