@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
   var $yourDesigner = $("#clothing-designer"),
     pluginOpts = {
       stageWidth: 1000,
@@ -62,9 +62,9 @@ jQuery(document).ready(function() {
   });
 
   //checkout button with getProduct()
-  $("#checkout-button").click(function() {
+  $("#checkout-button").click(function() { 
     var product = yourDesigner.getProduct();
-    console.log(product);
+    console.log('checkout button has been clicked: ', product);
     return false;
   });
 
@@ -74,7 +74,7 @@ jQuery(document).ready(function() {
   });
 
   //save image on webserver
-  $("#save-image-php").click(function() {
+  $("#save-image-php").click(function() { 
     yourDesigner.getProductDataURL(function(dataURL) {
       $.post("php/save_image.php", { base64_image: dataURL });
     });
@@ -86,4 +86,39 @@ jQuery(document).ready(function() {
       $.post("php/send_image_via_mail.php", { base64_image: dataURL });
     });
   });
+    
+  $.getJSON( "../../assets/json/images.json", function(data) {
+    console.log('getJSON worked')
+    // console.log('data', data);
+    })
+    .done(function(data) {
+      console.log('.done function working')
+      console.log('data', data);
+      // Loop through JSON objects. Now able to use element.notation to access each product's keys
+      for (const product in data) {
+        if (data.hasOwnProperty(product)) {
+          const element = data[product];
+          console.log('element.attributes ', element.attributes);
+        }
+      }
+      console.log('data.product_1', data.product_1)
+    })
+//closing document.ready function    
 });
+
+// //image fetch function
+
+    // .done(function( data ) {
+    //   // JSON.parse(data)
+    //   console.log(data)
+    //   // $.each( data.product )
+    // })
+  
+ 
+  // $( "<ul/>", {
+  //   "class": "item-options",
+  //   html: items.join( "" )
+  // }).appendTo( "body" );
+// });
+//create a button
+// link ajax call to button and call the json

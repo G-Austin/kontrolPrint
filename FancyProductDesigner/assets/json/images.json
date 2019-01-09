@@ -1,0 +1,191 @@
+{
+  "product_1": {
+    "attributes": {
+      "class": "fpd-product",
+      "title": "product_1",
+      "data-thumbnail": "assets/images/products/product_1/front/preview.png"
+      },
+    "front_imgs": [
+      {
+        "src": "assets/images/products/product_1/front/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329, &quot;colors&quot;: &quot;#d59211&quot;, &quot;price&quot;: 20, &quot;colorLinkGroup&quot;: &quot;Base&quot;}"
+      },
+
+      {
+        "src": "assets/images/products/product_1/front/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329}"
+      },
+
+      {
+        "src": "assets/images/products/product_1/front/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 322, &quot;top&quot;: 137}"
+      }
+    ],
+    
+    "back_imgs": [
+      {
+        "src": "assets/images/products/product_1/back/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 317, &quot;top&quot;: 329, &quot;colorLinkGroup&quot;: &quot;Base&quot;, &quot;price&quot;: 20}"
+      },
+
+      {
+        "src": "assets/images/products/product_1/back/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 333, &quot;top&quot;: 119}"
+      },
+
+      {
+        "src": "assets/images/products/product_1/back/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 318, &quot;top&quot;: 329}"
+      }
+    ]
+  },
+  "product_2": {
+    "attributes": {
+      "class": "fpd-product",
+      "title": "product_2",
+      "data-thumbnail": "assets/images/products/product_2/front/preview.png"
+      },
+
+    "front_imgs": [
+      {
+        "src": "assets/images/products/product_2/front/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329, &quot;colors&quot;: &quot;#d59211&quot;, &quot;price&quot;: 20, &quot;colorLinkGroup&quot;: &quot;Base&quot;}"
+      },
+
+      {
+        "src": "assets/images/products/product_2/front/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329}"
+      },
+
+      {
+        "src": "assets/images/products/product_2/front/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 322, &quot;top&quot;: 137}"
+      }
+    ],
+    
+    "back_imgs": [
+      {
+        "src": "assets/images/products/product_2/back/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 317, &quot;top&quot;: 329, &quot;colorLinkGroup&quot;: &quot;Base&quot;, &quot;price&quot;: 20}"
+      },
+
+      {
+        "src": "assets/images/products/product_2/back/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 333, &quot;top&quot;: 119}"
+      },
+
+      {
+        "src": "assets/images/products/product_2/back/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 318, &quot;top&quot;: 329}"
+      }
+    ]
+  },
+
+  "product_3": {
+    "attributes": {
+      "class": "fpd-product",
+      "title": "product_3",
+      "data-thumbnail": "assets/images/products/product_3/front/preview.png"
+      },
+      
+    "front_imgs": [
+      {
+        "src": "assets/images/products/product_3/front/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329, &quot;colors&quot;: &quot;#d59211&quot;, &quot;price&quot;: 20, &quot;colorLinkGroup&quot;: &quot;Base&quot;}"
+      },
+
+      {
+        "src": "assets/images/products/product_3/front/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329}"
+      },
+
+      {
+        "src": "assets/images/products/product_3/front/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 322, &quot;top&quot;: 137}"
+      }
+    ],
+    
+    "back_imgs": [
+      {
+        "src": "assets/images/products/product_3/back/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 317, &quot;top&quot;: 329, &quot;colorLinkGroup&quot;: &quot;Base&quot;, &quot;price&quot;: 20}"
+      },
+
+      {
+        "src": "assets/images/products/product_3/back/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 333, &quot;top&quot;: 119}"
+      },
+
+      {
+        "src": "assets/images/products/product_3/back/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 318, &quot;top&quot;: 329}"
+      }
+    ]
+  },
+
+  "product_4": {
+    "attributes": {
+      "class": "fpd-product",
+      "title": "product_4",
+      "data-thumbnail": "assets/images/products/product_4/front/preview.png"
+      },
+      
+    "front_imgs": [
+      {
+        "src": "assets/images/products/product_4/front/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329, &quot;colors&quot;: &quot;#d59211&quot;, &quot;price&quot;: 20, &quot;colorLinkGroup&quot;: &quot;Base&quot;}"
+      },
+
+      {
+        "src": "assets/images/products/product_4/front/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 325, &quot;top&quot;: 329}"
+      },
+
+      {
+        "src": "assets/images/products/product_4/front/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 322, &quot;top&quot;: 137}"
+      }
+    ],
+    
+    "back_imgs": [
+      {
+        "src": "assets/images/products/product_4/back/base.png",
+        "title": "Base",
+        "data-parameters": "{&quot;left&quot;: 317, &quot;top&quot;: 329, &quot;colorLinkGroup&quot;: &quot;Base&quot;, &quot;price&quot;: 20}"
+      },
+
+      {
+        "src": "assets/images/products/product_4/back/body.png",
+        "title": "Hightlights",
+        "data-parameters": "{&quot;left&quot;: 333, &quot;top&quot;: 119}"
+      },
+
+      {
+        "src": "assets/images/products/product_4/back/shadows.png",
+        "title": "Shadow",
+        "data-parameters": "{&quot;left&quot;: 318, &quot;top&quot;: 329}"
+      }
+    ]
+  }
+}
